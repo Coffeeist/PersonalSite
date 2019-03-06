@@ -2,15 +2,136 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+	<script>
+		var host = "jeffmcgirr.me";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+	</script>
+	<meta charset="utf-8">
 
-  <title>WIP Portfolio</title>
-  <meta name="description" content="Jeff McGirr Portfolio">
-  <meta name="author" content="jmcgirr">
+	<title>Jeff McGirr</title>
+	<meta name="description" content="Jeff McGirr Portfolio">
+	<meta name="author" content="jmcgirr">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Titillium+Web:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
-  Workin on it...
+	<!--Spacer for fixed navbar to rest atop header-->
+	<div id="topNavBack">invisible</div>
+	<nav id="topNav" class="">
+		<ul>
+			<li><a href="#topNavBack" class="active">Welcome</a></li>
+			<li><a href="#expSct">Experience</a></li>
+			<li><a href="#aboutSct">About Me</a></li>
+			<li><a href="#linkSct">Links</a></li>
+		</ul>
+	</nav>
+
+	<div id="helloDiv"><div id="helloDivInner">
+		Hi, I'm Jeff
+	</div></div>
+
+	<section class="scrollPt">
+		<h1>Welcome</h1>
+		<hr>
+		<div class="card card-1third tcenter">
+			<img id="welcomePic" src="img/me.png">
+			<!--<img id="welcomePic" src="https://via.placeholder.com/600">-->
+		</div>
+		<div class="card card-2third">
+			<h3><strong>I'm a software engineer in the Greater Boston Area</strong></h3>
+		</div>
+	</section>
+
+	<section id="expSct" class="scrollPt">
+		<h1>Experience</h1>
+		<hr>
+		<section>
+			<h2 class="tcenter">Work</h2>
+			<div class="card card-half card-em">
+				<h4>HealthcareSource <small>Woburn, MA</small></h4>
+				<p><strong>Technical Support Intern</strong> <span class="fright">9/2018-present</span></p>
+				<p><strong>Web Developer Intern</strong> <span class="fright">8/2016-12/2016; 5/2017-8/2017; 1/2018-8/2018</span></p>
+				<div class="card-body">
+					<ul>
+						<li>Collaborated with client representatives to fulfill edit requests to ColdFusion/HTML/CSS/JS job search/apply web applications</li>
+						<li>Upgraded client sites to a mobile-friendly Bootstrap implementation</li>
+						<li>Wrote and altered SQL queries to report on data and display results to formatted web pages, Excel documents, and Word documents</li>
+						<li>Created and modified Interactive PDF documents</li>
+						<li>Worked on large-scale team projects, such as Federal document updates</li>
+						<li>Investigated and fixed issues found in testing or reported by clients</li>
+						<li>Developed tools to streamline day-to-day work, including a code block generator and a link-opener browser extension, as well as finding ways to more efficiently utilise team tools</li>
+					</ul>
+				</div>
+			</div>
+			<div class="card card-half card-em">
+				<h4>Concord Park <small>Concord, MA</small></h4>
+				<p><strong>Dining Room Server</strong> <span class="fright">8/2011-8/2016</span></p>
+				<div class="card-body">
+					<ul>
+						<li>Cleaned and reset dining room tables; Took, prepared, and delivered meal orders</li>
+						<li>Ensured a pleasant dining experience for residents and their guests</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2 class="tcenter">Projects</h2>
+			<div class="card card-1third card-em">
+				<h4 class="prj-wip">Senior Design Project</h4>
+				<p><small class="va-top">*Listing client information pending NDA clearance</small></p>
+				<p>Built a Node/Express/Handlebars web application, React Native mobile application, and MySQL database from the ground up, as part of a team working with a startup client</p>
+			</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-compl">Vets4Warriors CLR</h4>
+				<p>Developed a "Councillor Laptop Resource" - a MEAN web application with a Stevens team, to provide Vets4Warriors councillors with a convenient and quick means of keeping and accessing external resources to provide for callers.</p>
+			</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-plan">Coffeeist.io</h4>
+				<p>Work-in-progress personal project website, to have many different scratch-built capabilities - blog, social media centralization, airsoft team member information and data storage. Down the line, possibly some limited eCommerce functionality and a forum section.</p>
+			</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-plan">Miscord Bot Modifications</h4>
+				<p>Some edits to <a href="https://miscord.net/" target="_blank">Miscord</a>, a bot that links Facebook Messenger with Discord. Aiming to add video linking, Messenger mentions, and RegEx to trim Discord server names.</p>
+			</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-compl">This website</h4>
+				<p>Presently a simple HTML/CSS/JS website hosted via GitHub Pages. May transition to Jekyll or to a web app down the line, if the need for more dynamic content arises.</p>
+			</div>
+		</section>
+		<section>
+			<h2 class="tcenter">Education</h2>
+			<div class="card card-em">
+				<h4>Stevens Institute of Technology <small>Hoboken, NJ</small></h4>
+				<p><strong>BS in Computer Science</strong> <span class="fright">8/2014-present, graduating May 2019</span></p>
+				<div class="card-body">
+					<strong>Coursework:</strong> Algorithms, Data Structures, Concurrent Programming, Systems Programming, Software Development, Web Programming, Database Management, Project Management
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="aboutSct" class="scrollPt">
+		<h1>About Me</h1>
+		<hr>
+		<h2 class="tcenter">Skills</h2>
+		<h2 class="tcenter">Background</h2>
+		<h2 class="tcenter">Hobbies</h2>
+	</section>
+
+	<section id="linkSct" class="scrollPt">
+		<h1>Links</h1>
+		<hr>
+		<div id="linkSctContent">
+			links
+		</div>
+		<div id="footer">&copy; <span id="date">2019</span> Jeff McGirr</div>
+	</section>
+
+	<!--Scripts-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

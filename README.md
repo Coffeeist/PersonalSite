@@ -1,2 +1,3 @@
-# portfolio-site
-Simple static GitHub Pages portfolio site
+# Portfolio Site
+
+Just a simple static GitHub Pages portfolio site
