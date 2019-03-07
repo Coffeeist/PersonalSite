@@ -60,7 +60,7 @@ small {
     float: right;
     text-align: right;
 }
-.clearfix {
+.clearfix:after {
     content: "";
     clear: both;
     display: table;
