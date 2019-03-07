@@ -122,32 +122,17 @@ nav#topNav.shrink ul li a, #topNavBack.shrink {
 }
 
 #helloDiv {
+    font-size: 0;
     width: 100%;
     background-color: #262a30;
-    background-image: -webkit-radial-gradient(center, circle, #0a0c0f 55%, transparent 57%);
-    background-image: -o-radial-gradient(center, circle, #0a0c0f 55%, transparent 57%);
-    background-image: radial-gradient(circle at center, #0a0c0f 55%, transparent 57%);
-    background-size: 7px 7px;
-    background-position: top center;
+    background-image: url("../img/backgrSection.png");
+    background-position: center;
 }
 #helloDivInner {
-    padding: 100px 0;
+    padding: 120px 0;
     height: 100%;
     width: 100%;
-    background-image: -webkit-radial-gradient(center, circle, #f2f5f7 55%, transparent 57%);
-    background-image: -o-radial-gradient(center, circle, #f2f5f7 55%, transparent 57%);
-    background-image: radial-gradient(circle at center, #f2f5f7 55%, transparent 57%);
-    background-size: 7px 7px;
-    background-position: top center;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -o-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #0a0c0f;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
-    font-size: 6rem;
+    margin: 0 auto;
     text-align: center;
 }
 
