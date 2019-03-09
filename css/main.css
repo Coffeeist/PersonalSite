@@ -60,6 +60,11 @@ small {
     float: right;
     text-align: right;
 }
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .va-top {
     vertical-align: top;
 }
@@ -245,5 +250,8 @@ section#linkSct {
     width: 64%;
 }
 .card-1qtr {
+    width: 23%;
+}
+.card-1fif {
     width: 18%;
 }
