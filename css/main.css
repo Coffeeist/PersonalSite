@@ -252,6 +252,18 @@ section#linkSct {
 .card-1qtr {
     width: 23%;
 }
+.card-3qtr {
+    width: 73%;
+}
 .card-1fif {
     width: 18%;
+}
+.card-2fif {
+    width: 38%;
+}
+.card-3fif {
+    width: 58%;
+}
+.card-4fif {
+    width: 78%;
 }
