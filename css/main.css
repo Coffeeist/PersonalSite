@@ -7,7 +7,7 @@
 
 body,html {
     height: 100%;
-    background-color: #f2f5f7;
+    background-color: #dde3ed;
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     color: #0a0c0f;
@@ -53,6 +53,11 @@ small {
     font-size: .7em;
 }
 
+.emp {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
 .tcenter {
     text-align: center;
 }
@@ -78,7 +83,7 @@ nav#topNav {
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     background-color: #262a30;
-    border-top: 5px solid #f2f5f7;
+    border-top: 5px solid #dde3ed;
     box-sizing: border-box;
 }
 
@@ -103,10 +108,10 @@ nav#topNav ul li {
     text-align: center;
 }
 nav#topNav ul li:last-child a {
-    border-right: 1px solid #f2f5f7;
+    border-right: 1px solid #dde3ed;
 }
 nav#topNav ul li a {
-    border-left: 1px solid #f2f5f7;
+    border-left: 1px solid #dde3ed;
     color: #f2f5f7;
     font-weight: 700;
     text-decoration: none;
@@ -187,11 +192,20 @@ img#welcomePic {
     padding-left: 5px;
     font-size: .5em;
 }
+.prj-live {
+    color: #00b58d;
+}
+.prj-live:after {
+    content: "Completed-Active";
+    font-style: italic;
+    padding-left: 5px;
+    font-size: .5em;
+}
 .prj-compl {
     color: #0bb500;
 }
 .prj-compl:after {
-    content: "Completed";
+    content: "Completed-Done";
     font-style: italic;
     padding-left: 5px;
     font-size: .5em;
@@ -203,6 +217,17 @@ section#linkSct {
 }
 #linkSctContent {
     font-size: 1rem;
+}
+#linkSctContent * {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linkSctContent .linkinfo {
+    font-size: .8rem;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 #footer {
@@ -216,7 +241,7 @@ section#linkSct {
     display: block;
     width: 100%;
     margin-left: -2rem;
-    /*border-bottom: 5px solid #f2f5f7;*/
+    /*border-bottom: 5px solid #dde3ed;*/
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -267,3 +292,5 @@ section#linkSct {
 .card-4fif {
     width: 78%;
 }
+
+
