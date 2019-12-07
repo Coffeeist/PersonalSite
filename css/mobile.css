@@ -1,3 +1,9 @@
+@media only screen and (min-width: 600px) {
+    .hidelarge {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .card-half, .card-3qtr, .card-2third {
         width: 98%;
@@ -8,10 +14,39 @@
 }
 
 @media only screen and (max-width: 600px) {
+    #helloDiv {
+        background-image: url("../img/backgrSectionSm.png");
+    }
+    #helloDivInner {
+        padding: 68px 0;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hidesmall {
+        display: none;
+    }
     .card-1third, .card-1qtr {
         width: 98%;
     }
     .card-1fif {
         width: 48%;
+    }
+    #topNavBack {
+        padding: 8px;
+        background-color: #262a30;
+    }
+    nav#topNav ul li {
+        display: inline-block;
+        width:70px;
+        font-size: .75rem;
+        text-align: center;
+    }
+    nav#topNav ul li a {
+        padding: 10px 0;
+    }
+    section {
+        padding: 1rem;
     }
 }
