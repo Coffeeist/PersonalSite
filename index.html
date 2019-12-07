@@ -20,6 +20,7 @@
 
 
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,10 +31,12 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<title>Jeff McGirr</title>
-	<meta name="description" content="Jeff McGirr Portfolio">
+	<meta name="description" content="Jeff McGirr Portfolio - Software Engineer in the Greater Boston Area">
+	<meta name="keywords" content="jeff,mcgirr,boston,software,engineer,jeff mcgirr,massachusetts,frontend,backend,full stack">
 	<meta name="author" content="jmcgirr">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Titillium+Web:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mobile.css">
 
 </head>
 
@@ -44,8 +47,8 @@
 		<ul>
 			<li><a href="#topNavBack" class="active">Welcome</a></li>
 			<li><a href="#expSct">Experience</a></li>
-			<!--<li><a href="#aboutSct">About Me</a></li>-->
-			<!--<li><a href="#linkSct">Links</a></li>-->
+			<li><a href="#aboutSct">About Me</a></li>
+			<li><a href="#linkSct">Links</a></li>
 		</ul>
 	</nav>
 
@@ -62,6 +65,7 @@
 		<!--</div>-->
 		<div class="card">
 			<h3><strong>I'm a software engineer in the Greater Boston Area</strong></h3>
+			<p class="emp">A recent Computer Science graduate from Stevens Institute of Technology, I'm back to my home state of Massachusetts working in support engineering at a Healthcare SaaS organization. While I enjoy working in a variety of branches of software engineering, my experience thus far has been primarily in web software, such as ColdFusion and Node applications, and database management. I'm excited to see what the future holds for my career and life in general... and all the bad puns I'm sure to make along the way!</p>
 		</div>
 	</section>
 
@@ -69,10 +73,36 @@
 		<h1>Experience</h1>
 		<hr>
 		<section>
+			<h2 class="tcenter">Education</h2>
+			<div class="card card-em">
+				<h4>Stevens Institute of Technology <small>Hoboken, NJ</small></h4>
+				<p><strong>Bachelor of Science in Computer Science</strong> <span class="fright">August 2014 - May 2019</span></p>
+				<div class="card-body">
+					<p><strong>Coursework:</strong> Co-op Program, Algorithms, Data Structures, Concurrent Programming, Systems Programming, Software Development, Web Programming, Database Management, Project Management</p>
+					<p><strong>Activities:</strong> WCPR Radio DJ</p>
+				</div>
+			</div>
+		</section>
+		<section>
 			<h2 class="tcenter">Work</h2>
-			<div class="card card-half card-em">
+			<div class="card card-em">
 				<h4>HealthcareSource <small>Woburn, MA</small></h4>
-				<p><strong>Technical Support Intern</strong> <span class="fright">9/2018-present</span></p>
+				<p><strong>Associate Technical Support Engineer</strong> <span class="fright">6/2019-present</span></p>
+				<div class="card-body">
+					<ul>
+						<li>Transitioned to primarily supporting a newer product version</li>
+						<li>Handle a wide variety of OLTP Database tasks - data corrections/updates, imports, exports, configuration, etc.</li>
+						<li>Work with creating/updating SQL Server Reporting</li>
+						<li>Set up integrations with external services, such as ADFS Single Sign On</li>
+						<li>Worked with issue tracking software to escalate investigations into reported concerns to the appropriate team</li>
+						<li>Continue to develop tools for myself, my team, and others - including a UI for interfacing with an API to reduce errors, updating the browser extension for new workflows, and contributing to a support tool</li>
+						<li>Continue handling previous tasks as needed</li>
+					</ul>
+				</div>
+			</div>
+			<div class="card card-half card-em">
+				<h4>HealthcareSource <small>(Internships) Woburn, MA</small></h4>
+				<p><strong>Technical Support Intern</strong> <span class="fright">9/2018-5/2019</span></p>
 				<p class="clearfix"><strong>Web Developer Intern</strong> <span class="fright">8/2016-12/2016; 5/2017-8/2017; 1/2018-8/2018</span></p>
 				<div class="card-body">
 					<ul>
@@ -100,48 +130,78 @@
 		<section>
 			<h2 class="tcenter">Projects</h2>
 			<div class="card card-1third card-em">
-				<h4 class="prj-compl">Vets4Warriors CLR</h4>
-				<p>Developed a "Councillor Laptop Resource" - a MEAN web application with a Stevens team, to provide Vets4Warriors councillors with a convenient and quick means of keeping and accessing external resources to provide for callers.</p>
+				<h4 class="prj-wip">ASDB</h4>
+				<p>(AirSoft DataBase) Website to provide a comprehensive listing of airsoft parts and data about them. A big challenge thus far was enforcing data integrity at the DB level on a dynamic schema (items needing to have different required attributes based on category, that may change over time) - solved via Triggers on JSON columns.</p>
 			</div>
 			<div class="card card-1third card-em">
 				<h4 class="prj-plan">Coffeeist.io</h4>
-				<p>Work-in-progress personal project website, to have many different scratch-built capabilities - blog, social media centralization, airsoft team member information and data storage. Down the line, possibly some limited eCommerce functionality and a forum section.</p>
+				<p>Work-in-progress personal project website. It will be my personal website for hobby content (such as airsoft and gaming), and will entail a variety of projects, such as a website for my airsoft team (including some internal utilities such as event scheduling, logistics management, and media storage), as well as serving as a 'sandbox' for other web development projects I have in mind (such as continuing a modern web forum project I started for a class).</p>
 			</div>
 			<div class="card card-1third card-em">
 				<h4 class="prj-plan">Miscord Bot Modifications</h4>
-				<p>Some edits to <a href="https://miscord.net/" target="_blank">Miscord</a>, a bot that links Facebook Messenger with Discord. Aiming to add video linking, Messenger mentions, and RegEx to trim Discord server names.</p>
+				<p>Some edits to <a href="https://miscord.net/" target="_blank">Miscord</a>, a bot that links Facebook Messenger with Discord. Aiming to add video linking, Messenger mentions, and RegEx to trim Discord server names. Eventually considering creating a similar solution from scratch myself, to provide a custom centralized messaging interface to integrate multiple other messaging services.</p>
 			</div>
 			<div class="card card-1third card-em">
-				<h4 class="prj-wip">This website</h4>
+				<h4 class="prj-live">This website</h4>
 				<p>Presently a simple HTML/CSS/JS website hosted via GitHub Pages. May transition to Jekyll or to a web app down the line, if the need for more dynamic content arises.</p>
 			</div>
-		</section>
-		<section>
-			<h2 class="tcenter">Education</h2>
-			<div class="card card-em">
-				<h4>Stevens Institute of Technology <small>Hoboken, NJ</small></h4>
-				<p><strong>BS in Computer Science</strong> <span class="fright">8/2014-present, graduating May 2019</span></p>
-				<div class="card-body">
-					<strong>Coursework:</strong> Algorithms, Data Structures, Concurrent Programming, Systems Programming, Software Development, Web Programming, Database Management, Project Management
-				</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-compl">Stevens Senior Design Project</h4>
+				<p><em>(2018-19)</em> Developed a web and mobile application for a startup client with a Stevens team. Consisted of an AWS-hosted Node/Express/MySQL web application serving a Handlebars website and React Native mobile app.</p>
+			</div>
+			<div class="card card-1third card-em">
+				<h4 class="prj-compl">Vets4Warriors CLR</h4>
+				<p><em>(2016-17)</em> Developed a "Counselor Laptop Resource" - a MEAN web application with a Stevens team, to provide Vets4Warriors councillors with a convenient and quick means of keeping and accessing external resources to provide for callers.</p>
 			</div>
 		</section>
 	</section>
 
-	<!--<section id="aboutSct" class="scrollPt">-->
-		<!--<h1>About Me</h1>-->
-		<!--<hr>-->
-		<!--<h2 class="tcenter">Skills</h2>-->
+	<section id="aboutSct" class="scrollPt">
+		<h1>About Me</h1>
+		<hr>
+		<h2 class="tcenter">Skills</h2>
+		<div class="card card-half card-em">
+			<h5>Programming</h5>
+			<p><em>Languages: </em>HTML, CSS, JavaScript, Stylus, ColdFusion, Python, Java, C++, SQL, XML</p>
+			<p><em>Libraries/Frameworks/etc:</em> jQuery, React, Bootstrap, NodeJS, Express, Handlebars, MongoDB, MySQL, PostgreSQL, Git</p>
+		</div>
+		<div class="card card-half card-em">
+			<h5>Software</h5>
+			<p><em>Windows, Linux;</em> Visual Studio, VS Code, JetBrains IDEs (IntelliJ, PhpStorm, DataGrip), SSMS, AWS, Azure, TFS, Jira, Salesforce, Photoshop, Davinci Resolve</p>
+		</div>
 		<!--<h2 class="tcenter">Background</h2>-->
-		<!--<h2 class="tcenter">Hobbies</h2>-->
-	<!--</section>-->
+		<h2 class="tcenter">Hobbies</h2>
+		<div class="card card-1fif card-em">
+			<h5>Airsoft</h5>
+			<p>Action sport in a similar vein to Paintball. Co-founder/leader of my current team. Frequently participate in large-scale team-based events around New England</p>
+		</div>
+		<div class="card card-1fif card-em">
+			<h5>Game Modding</h5>
+			<p>Making modifications to image files, configurations, and scripts to tweak game experiences</p>
+		</div>
+		<div class="card card-1fif card-em">
+			<h5>Assorted Tech Projects</h5>
+			<p>Software projects such as some of the ones listed above, home automation, etc.</p>
+		</div>
+	</section>
 
 	<section id="linkSct" class="scrollPt">
-		<!--<h1>Links</h1>-->
-		<!--<hr>-->
-		<!--<div id="linkSctContent">-->
-			<!--links-->
-		<!--</div>-->
+		<h1>Links</h1>
+		<hr>
+		<div id="linkSctContent">
+			<div class="card card-1third card-em">
+				<a href="https://www.linkedin.com/in/jmcgirr/" target="_blank">
+					<img src="img/lilogo.png" alt="View my LinkedIn profile"> Profile
+				</a>
+				<h5 class="linkinfo">(External Link)</h5>
+			</div>
+			<div class="card card-1third card-em">
+				<a href="serve/resume.pdf" target="_blank">
+					<img src="img/resumeico.png" alt="View my LinkedIn profile"> Resume
+				</a>
+				<h5 class="linkinfo">(PDF Download)</h5>
+			</div>
+		</div>
 		<div id="footer">&copy; <span id="date">2019</span> Jeff McGirr</div>
 	</section>
 

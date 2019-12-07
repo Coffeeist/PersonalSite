@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1000px) {
+    .card-half, .card-3qtr, .card-2third {
+        width: 98%;
+    }
+    .card-1third, .card-1qtr {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-1third, .card-1qtr {
+        width: 98%;
+    }
+    .card-1fif {
+        width: 48%;
+    }
+}
