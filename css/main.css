@@ -230,6 +230,10 @@ section#linkSct {
     font-style: italic;
 }
 
+.linkinfo a:hover {
+    color: #3e4857;
+}
+
 #footer {
     font-size: .8rem;
     position: absolute;
