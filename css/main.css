@@ -230,7 +230,7 @@ section#linkSct {
     font-style: italic;
 }
 
-.linkinfo a:hover {
+#linkSctContent a:hover {
     color: #3e4857;
 }
 
