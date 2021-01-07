@@ -196,7 +196,7 @@ img#welcomePic {
     color: #00b58d;
 }
 .prj-live:after {
-    content: "Completed-Active";
+    content: "Ongoing";
     font-style: italic;
     padding-left: 5px;
     font-size: .5em;
@@ -205,7 +205,7 @@ img#welcomePic {
     color: #0bb500;
 }
 .prj-compl:after {
-    content: "Completed-Done";
+    content: "Completed";
     font-style: italic;
     padding-left: 5px;
     font-size: .5em;
