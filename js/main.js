@@ -1,3 +1,5 @@
+var today = new Date();
+
 $(window).scroll(function () {
 	
 	var st = $(this).scrollTop();
@@ -29,10 +31,12 @@ $("nav#topNav ul li a").on("click", function (e) {
 });
 
 $(document).ready(function () {
+	$('#date').text(today.getFullYear());
+
 	var checkIE = (/Trident|MSIE/).test(navigator.userAgent);
 	
 	if(checkIE){
-		if (confirm("It appears you are using Internet Explorer.\r\nThis site likely won't display properly. I recommend trying a modern browser such as Firefox, Chrome, Vivaldi, or Brave.\r\n\nPress 'OK' to close this page, or 'Cancel' to proceed anyway...")) {
+		if (confirm("It appears you are using Internet Explorer.\r\nThis site may not display properly. I recommend trying a modern browser such as Edge, Firefox, Chrome, Vivaldi, or Brave.\r\n\nPress 'OK' to close this page, or 'Cancel' to proceed anyway...")) {
 			window.close();
 		}
 	}
