@@ -205,7 +205,7 @@ img#welcomePic {
     color: #0bb500;
 }
 .prj-compl:after {
-    content: "Completed";
+    content: "Prior";
     font-style: italic;
     padding-left: 5px;
     font-size: .5em;
@@ -231,7 +231,7 @@ section#linkSct {
 }
 
 #linkSctContent a:hover {
-    color: #3e4857;
+    color: #2866b1;
 }
 
 #footer {
